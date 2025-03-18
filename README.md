@@ -1,6 +1,7 @@
 
 # Challenge Amigo Secreto
 
+[![Build Status](https://github.com/ThCRiNGo/challenge-amigo-secreto?branch=master)](https://github.com/ThCRiNGo/challenge-amigo-secreto)
 Challenge del G8 de alura 2025.
 Este proyecto es una aplicación web desarrollada para organizar el tradicional juego del "Amigo Secreto". La idea es que los usuarios puedan ingresar nombres de amigos, visualizar una lista actualizada y, mediante un sorteo aleatorio, determinar quién será el amigo secreto de cada participante.
 
