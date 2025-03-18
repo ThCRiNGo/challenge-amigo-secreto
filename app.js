@@ -39,6 +39,10 @@ function agregarAmigo() {
     // Agregar el nombre al array
     amigos.push(nombre);
 
+   // Limpiar el resultado anterior del sorteo
+   listaResultado.innerHTML = ""; 
+
+
     // Actualizar la lista en el DOM
     actualizarListaAmigos();
 
@@ -89,7 +93,25 @@ function eliminarAmigo(index) {
  * Función para sortear el amigo secreto.
  */
 function sortearAmigo() {
-    // Lógica se implementará 
+   // Verificar que haya al menos 2 amigos en la lista
+   if (amigos.length < 2) {
+    alert("Debe haber al menos dos amigos en la lista para realizar el sorteo.");
+    return;
+}
+
+// Seleccionar un índice aleatorio
+const indiceAleatorio = Math.floor(Math.random() * amigos.length);
+const amigoSeleccionado = amigos[indiceAleatorio];
+
+// Mostrar el resultado en la lista de resultados
+listaResultado.innerHTML = ""; // Limpiar resultados anteriores
+const li = document.createElement("li");
+li.textContent = `El amigo secreto es: ${amigoSeleccionado}`;
+listaResultado.appendChild(li);
+
+// Eliminar al amigo seleccionado de la lista
+amigos.splice(indiceAleatorio, 1);
+actualizarListaAmigos(); // Refrescar la lista en pantalla
 }
 
 // Mensaje de confirmación en la consola para verificar que el script se ha cargado correctamente

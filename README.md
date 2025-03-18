@@ -1,7 +1,7 @@
 
 # Challenge Amigo Secreto
 
-[![Build Status](https://github.com/ThCRiNGo/challenge-amigo-secreto?branch=master)](https://github.com/ThCRiNGo/challenge-amigo-secreto)
+// [![Build Status](https://github.com/ThCRiNGo/challenge-amigo-secreto?branch=master)](https://github.com/ThCRiNGo/challenge-amigo-secreto)
 Challenge del G8 de alura 2025.
 Este proyecto es una aplicación web desarrollada para organizar el tradicional juego del "Amigo Secreto". La idea es que los usuarios puedan ingresar nombres de amigos, visualizar una lista actualizada y, mediante un sorteo aleatorio, determinar quién será el amigo secreto de cada participante.
 
@@ -18,6 +18,12 @@ Este proyecto es una aplicación web desarrollada para organizar el tradicional 
 
 - **Sorteo aleatorio:**  
   Al hacer clic en el botón "Sortear Amigo", la aplicación selecciona de forma aleatoria un nombre de la lista y muestra el resultado en pantalla.
+
+- **Funcionalidads extra:**  
+  Se agregó un boton eliminar al lado de cada amigo ingresado, permitiendo quitarlo del listado
+  Al sortear un amigo, se presenta al amigo sorteado aleatoriamente y se elimina del listado, manteniendo a los participantes restantes para un nuevo sorteo, evitando tener que ingresar todo el listado nuevamente.
+  Al hacer clic en el botón "Sortear Amigo", se elimina al amigo secreto anterior.
+  Debe haber al menos 2 amigos para poder realizar el sorteo.
 
 ## Tecnologías Utilizadas
 
