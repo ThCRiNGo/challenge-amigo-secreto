@@ -41,13 +41,14 @@ Este proyecto es una aplicación web desarrollada para organizar el tradicional 
 2.  **Navegar al Directorio del Proyecto:**
 
  ```bash
-   cd challenge-amigo-secreto
-
-3. **Abrir la Aplicación**
+   cd challenge-amigo-secreto           
+   
+  ```
+  3. **Abrir la Aplicación**
 Abre el archivo index.html en tu navegador preferido.
 (Opcional) Si usas Visual Studio Code, puedes instalar la extensión Live Server para ejecutar la aplicación de forma local.
 ### Licencia
 Este proyecto se distribuye bajo los términos de la Unlicense.
 
-Copiar
-Editar
+  
+  
