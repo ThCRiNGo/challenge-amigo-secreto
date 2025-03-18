@@ -19,10 +19,13 @@ Este proyecto es una aplicación web desarrollada para organizar el tradicional 
 - **Sorteo aleatorio:**  
   Al hacer clic en el botón "Sortear Amigo", la aplicación selecciona de forma aleatoria un nombre de la lista y muestra el resultado en pantalla.
 
-- **Funcionalidads extra:**  
-  Se agregó un boton eliminar al lado de cada amigo ingresado, permitiendo quitarlo del listado
+- **Funcionalidadse extra:**  
+  Se agregó un boton eliminar al lado de cada amigo ingresado, permitiendo quitarlo del listado.
+
   Al sortear un amigo, se presenta al amigo sorteado aleatoriamente y se elimina del listado, manteniendo a los participantes restantes para un nuevo sorteo, evitando tener que ingresar todo el listado nuevamente.
+
   Al hacer clic en el botón "Sortear Amigo", se elimina al amigo secreto anterior.
+  
   Debe haber al menos 2 amigos para poder realizar el sorteo.
 
 ## Tecnologías Utilizadas
